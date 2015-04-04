@@ -16,3 +16,13 @@ body,html{font-family:Lora,serif;height:100%;width:100%;font-weight:400;font-sty
 .download-now img {
 	width:100%;
 }
+.invitaion_teext {
+	font-family: 'Great Vibes',cursive;
+	font-size: 2.4em;
+	margin: 0;
+	padding: 0 0 20px;
+	line-height: 45px;
+}
+.about_us{
+	background-color: floralwhite !important;
+}
