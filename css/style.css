@@ -24,5 +24,8 @@ body,html{font-family:Lora,serif;height:100%;width:100%;font-weight:400;font-sty
 	line-height: 45px;
 }
 .about_us{
-	background-color: floralwhite !important;
+	background-color: #fffaf0 !important;
+}
+.contact_address_cont {
+	background: none repeat scroll 0 0 #fffaf0 !important;
 }
