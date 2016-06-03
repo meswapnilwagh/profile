@@ -1,3 +1,3 @@
 <?php
-echo "Testing PHP On gh-pages";
+echo "New profile site";
 ?>
