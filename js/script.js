@@ -13,17 +13,8 @@
   
   Author Email  : h.nafees.anwar@gmail.com
 
-<<<<<<< HEAD
-  $(window).bind("load", function() {
-    $('#status').fadeOut(); // will first fade out the loading animation
-    $('#preloader').delay(1000).fadeOut('slow'); // will fade out the white DIV that covers the website.
-    $('body').delay(1000).css({'overflow-x': 'hidden'}).css({'overflow-y': 'auto'});
-    // checkContactForm();
-     $('body').scrollspy({ target: '.nav-menu' });
-=======
 --------------------------------------------------------
 */
->>>>>>> master
 
 /*  ------------------
     Remove Preloader
@@ -151,57 +142,6 @@ $(document).ready(function () {
          Maximize Services Items Height
         --------------------------------  */
     
-<<<<<<< HEAD
-    
-  });
-
-
-  $('.goto-top').click(function(e) {
-    e.preventDefault();
-    $('html,body').animate({
-      scrollTop: 0
-    }, 2000);
-  });
-
-  if ($('a[data-rel="prettyphoto"]').length > 0) {
-    $('a[data-rel="prettyphoto"]').prettyPhoto();
-  }
-  if ($('a[data-rel="prettyPhoto"]').length > 0) {
-    $('a[data-rel="prettyPhoto"]').prettyPhoto();
-  }
-
-
-  //Contact form setup
-  // function checkContactForm() {
-  //   if ($(".contact-form").length > 0) {
-  //     var formStatus = $(".contact-form").validate();
-  //     //   ===================================================== 
-  //     //sending contact form
-  //     $(".contact-form").submit(function(e) {
-  //       e.preventDefault();
-
-  //       //  triggers contact form validation
-  //       if (formStatus.errorList.length === 0)
-  //       {
-  //         $(".contact-form .submit").fadeOut(function() {
-  //           $('#loading').css('visibility', 'visible');
-  //           $.post('submit.php', $(".contact-form").serialize(),
-  //                   function(data) {
-  //                     $(".contact-form input,.contact-form textarea").not('.submit').val('');
-  //                     $('.message-box').html(data);
-  //                     $('#loading').css('visibility', 'hidden');
-  //                     $(".contact-form").css('display', 'none');
-  //                     //$(".contact-form .submit").removeClass('disabled').css('display', 'block');
-  //                   }
-  //           );
-  //         });
-  //       }
-  //     });
-  //   }
-  // }
- 
-  
-=======
     function maximizeHeight() {
         
         var minHeight = 0;
@@ -222,7 +162,6 @@ $(document).ready(function () {
     maximizeHeight();
     
     $(window).on('resize', maximizeHeight);
->>>>>>> master
 
     /*  ----------------------------------------
          Tooltip Starter for Social Media Icons
@@ -287,9 +226,6 @@ $(document).ready(function () {
         });
     });
 
-<<<<<<< HEAD
-}
-=======
     /*  -----------------------------------------------------
          MixItUp ( for portfolio page : testimonials slider )
         -----------------------------------------------------  */
@@ -360,4 +296,3 @@ $(document).ready(function () {
     });
 
 });
->>>>>>> master
